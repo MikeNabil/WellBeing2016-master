@@ -13,13 +13,7 @@ public class IllnessInfo extends AppCompatActivity {
         setContentView(R.layout.activity_illness_info);
     }
 
-    public void necrotizing(View v) {
-        Intent MoveMe = new Intent(this, Necrotizing.class);
-        String strName = "Necrotizing Faciitis (Flesh eating Bacteria): Necrotizing fasciitis is an infection caused by bacteria. It can destroy skin, fat, and the tissue covering the muscles within a very short time. It is a rare but serious, as it is fatal in 1 of 4 people who contract it.";
-        MoveMe.putExtra("Necro", strName);
-        startActivity(MoveMe);
 
-    }
     public void coccidioidomycosis(View v) {
         Intent MoveMe = new Intent(this, Necrotizing.class);
         String strName = "Coccidioidomycosis (Valley Fever): Is caused by the soil-dwelling fungus,Coccidioides immitis. The tiny seeds, or spores, become wind-borne and are inhaled into the lungs, where the infection starts.";
