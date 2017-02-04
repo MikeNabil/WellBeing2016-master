@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="healthyhouseesl.com.wellbeingapp.DoctorActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/Clinic1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:textSize="20dp"
+                android:autoLink="all"
+                android:textColor="#000000"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1. Merced Medical Clinic"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="650 W Olive Ave #A Merced, CA 95348"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textAppearance="@android:style/TextAppearance.Material.Small"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:text="Phone: (209)-722-8047"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:text="Open Hours:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Sun, Tues, Fri - Closed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Mon, Wed, Thurs - 11AM–5PM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Saturday - 9AM–12PM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:text="Directions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BUTTON"
+                style="@style/Widget.AppCompat.Button"
+                android:contentDescription="https://www.google.com/maps/place/650+W+Olive+Ave,+Merced,+CA+95348/@37.3188151,-120.4819032,17z/data=!3m1!4b1!4m5!3m4!1s0x809143b3101aa335:0x5d798a963cc80678!8m2!3d37.3188151!4d-120.4797145"
+                android:autoLink="web|map"
+                android:elevation="0dp"
+                android:autoText="true"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/Space1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Clinic1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Clinic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Clinic2"
+                android:textSize="20dp"
+                android:autoLink="all"
+                android:textColor="#000000"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="2. Golden Valley Health Center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="127 W El Portal Dr B, Merced, CA 95348"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Phone: (209)-381-4104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Open Hours:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView36"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:text="Sat, Sun - Closed"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:text="Mon to Fri - 8AM-5:30PM"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:text="Directions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BUTTON"
+                style="@style/Widget.AppCompat.Button"
+                android:contentDescription="https://www.google.com/maps/place/650+W+Olive+Ave,+Merced,+CA+95348/@37.3188151,-120.4819032,17z/data=!3m1!4b1!4m5!3m4!1s0x809143b3101aa335:0x5d798a963cc80678!8m2!3d37.3188151!4d-120.4797145"
+                android:autoLink="web|map|all"
+                android:autoText="false"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/Space2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Clinic3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/Clinic3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Space2"
+                android:textSize="20dp"
+                android:autoLink="all"
+                android:textColor="#000000"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="3. VA Castle Medical Clinic"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="340 E Yosemite Ave, Merced, CA 95340"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView26"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Phone: (209)-381-0105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Open Hours:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Sat, Sun - Closed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView29"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Mon to Fri - 8AM–4:30PM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView30"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:text="Directions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BUTTON"
+                style="@style/Widget.AppCompat.Button"
+                android:contentDescription="https://www.google.com/maps/place/650+W+Olive+Ave,+Merced,+CA+95348/@37.3188151,-120.4819032,17z/data=!3m1!4b1!4m5!3m4!1s0x809143b3101aa335:0x5d798a963cc80678!8m2!3d37.3188151!4d-120.4797145"
+                android:autoLink="web|map|all"
+                android:autoText="true"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/Space3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Clinic3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/Clinic4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Space3"
+                android:textSize="20dp"
+                android:autoLink="all"
+                android:textColor="#000000"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="4. Planned Parenthood"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="3166 Collins Dr, Merced, CA 95348"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Phone: (209)-723-7751"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView38"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Open Hours:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView39"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Sat, Sun - Closed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView40"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Mon to Fri - 8AM–5PM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView41"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:text="Directions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BUTTON"
+                style="@style/Widget.AppCompat.Button"
+                android:contentDescription="https://www.google.com/maps/place/650+W+Olive+Ave,+Merced,+CA+95348/@37.3188151,-120.4819032,17z/data=!3m1!4b1!4m5!3m4!1s0x809143b3101aa335:0x5d798a963cc80678!8m2!3d37.3188151!4d-120.4797145"
+                android:autoLink="web|map|all"
+                android:autoText="true"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/Space4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Clinic4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/Clinic5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Space4"
+                android:textSize="20dp"
+                android:autoLink="all"
+                android:textColor="#000000"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="5. Patients First Medical Center"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="394 E Yosemite Ave, Merced, CA 95340"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Phone: (209)-383-3990"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView38"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Open Hours:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView39"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Sat, Sun - 9AM–5PM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView40"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Mon to Fri - 8AM–8PM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView41"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:text="Directions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BUTTON"
+                style="@style/Widget.AppCompat.Button"
+                android:contentDescription="https://www.google.com/maps/place/650+W+Olive+Ave,+Merced,+CA+95348/@37.3188151,-120.4819032,17z/data=!3m1!4b1!4m5!3m4!1s0x809143b3101aa335:0x5d798a963cc80678!8m2!3d37.3188151!4d-120.4797145"
+                android:autoLink="web|map|all"
+                android:autoText="true"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/Space5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Clinic5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/Clinic6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Space5"
+                android:textSize="20dp"
+                android:autoLink="all"
+                android:textColor="#000000"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="6. Bloss Clinic Merced"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="1251 Grove Ave A, Atwater, CA 95301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Phone: (209)-358-8425"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView38"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Open Hours:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView39"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Sat, Sun - Closed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView40"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Mon to Fri – 8AM – 6PM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView41"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:text="Directions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BUTTON"
+                style="@style/Widget.AppCompat.Button"
+                android:contentDescription="https://www.google.com/maps/place/650+W+Olive+Ave,+Merced,+CA+95348/@37.3188151,-120.4819032,17z/data=!3m1!4b1!4m5!3m4!1s0x809143b3101aa335:0x5d798a963cc80678!8m2!3d37.3188151!4d-120.4797145"
+                android:autoLink="web|map|all"
+                android:autoText="true"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

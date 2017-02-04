@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="healthyhouseesl.com.wellbeingapp.BackgroundInfo">
+
+    <TextView
+        android:id="@+id/BackgroundInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This mobile application has the potential to radically improve the healthcare of the multiethnic community in Merced county. There's often a miscommunication between patients and doctors because of language and cultural barriers which tends to cause a drop in the quality of the healthcare that these patients receive. By providing the necessary information in multiple languages, it allows members of the community to better communicate with their doctors and better understand what they may be suffering from, why it is important to follow doctor’s orders, and to not be so skeptical of western medicine. The app will also provide information about antibiotic resistance, something that has been seriously plaguing the population and has the potential to create super bacteria that all modern drugs have no effect on if the problem persists. By educating people about antibiotic resistance, hopefully we can help stop this problem."
+        android:textSize="20dp" />
+
+</RelativeLayout>

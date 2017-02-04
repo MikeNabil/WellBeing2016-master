@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="healthyhouseesl.com.wellbeingapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/hh_logo_blank"
+        android:label="Healthy Host"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity_HomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        //the "android:label" is responsible for the name of the app that is seen in the home screen
+        as well as the top of the app for every page
+        //the "android:icon" g+-is responsible for what image shows up for the app in the home
+        screen,
+        it is placed in the mipmap folders and called upon
+        <activity
+            android:name=".BackgroundInfo"
+            android:label="Background Information">
+            <intent-filter>
+                <action android:name="healthyhousees1.com.wellbeingapp.BackgroundInfo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FaqActivity"
+            android:label="Frequently Asked Questions">
+            <intent-filter>
+                <action android:name="healthyhousees1.com.wellbeingapp.FaqActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IllnessInfo"
+            android:label="Common Illnesses">
+            <intent-filter>
+                <action android:name="healthyhouseesl.com.wellbeingapp.IllnessInfo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AntiBio"
+            android:label="Common Antibiotics">
+            <intent-filter>
+                <action android:name="healthyhouseesl.com.wellbeingapp.AntiBio" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Resources"
+            android:label="Dos and Don&apos;ts">
+            <intent-filter>
+                <action android:name="healthyhouseesl.com.wellbeingapp.Resources" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DoctorActivity"
+            android:label="Local Clinics">
+            <intent-filter>
+                <action android:name="healthyhouseesl.com.wellbeingapp.DoctorActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SourcesInfo"
+            android:label="Resources">
+            <intent-filter>
+                <action android:name="healthyhousees1.com.wellbeingapp.SourcesInfo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Necrotizing"></activity>
+    </application>
+
+</manifest>
